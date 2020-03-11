@@ -1,0 +1,136 @@
+@charset "utf-8";
+body{
+	background-color: #454545;
+	background-image: url("../img/skyline-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	margin: 0;
+}
+
+button{
+	margin: 10px;
+}
+
+
+.display-4 {
+    padding-top: 15%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.lead {
+	text-align: center;
+	font-style: italic;
+}
+
+.jumbotron {
+	background-color: rgba(0,0,0,0);
+}
+
+.navBtn{
+    font-style: normal;
+    color: white;
+    background-color: rgba(0,0,0,0);
+    text-align: center;
+    border-left: thin none #FFFFFF;
+    border-right: thick hidden #FFFFFF;
+    border-bottom: thin hidden #FFFFFF;
+    border-top: thin none #FFFFFF;
+    border-radius: 3px;
+    height: auto;
+    width: auto;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 6px;
+    font-family: Baskerville;
+    font-weight: 400;
+    font-variant: normal;
+    font-size: x-large;
+    margin-top: 3px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 3px;
+    display: block;
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-left: 24px;
+    padding-bottom: 5px;
+    letter-spacing: 3px;
+    border-spacing: 0 0;
+    position: relative;
+}
+
+.navBtn:hover{
+	background: #222222;
+	font-style: italic;
+}
+
+.navUL {
+    list-style-type: none;
+    border-radius: 10px;
+    border-bottom-width: thick;
+    -webkit-box-shadow: 0px 0px #000000;
+    box-shadow: 0px 0px #000000;
+    border-spacing: 29px 166px;
+	align-content: center;
+}
+
+.footer {
+	position: fixed;
+	background-color: #131313;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+}
+
+.fa {
+  font-size: 40px;
+  width: 50px;
+  text-align: center;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-github {
+	background: #000000;
+	color: white;
+}
+
+.fa-linkedin {
+	background: #291EC9;
+	color: white;
+}
+
+.hireniner {
+	background-color: #266320;
+}
+
+.hireniner img{
+	width: 61px;
+	height: 61px;
+	padding-bottom: 20px;
+}
+
+.hireniner:hover {
+	opacity: 0.5;
+}
+
+.gmail img {
+	height: 60px;
+	padding-bottom: 20px;
+}
+
+.gmail:hover {
+	opacity: 0.5;
+}
+
